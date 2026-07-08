@@ -1,0 +1,10 @@
+reset:     i = 0; goto address
+address:   MAR = i; goto read
+read0:     element = mem[MAR]; goto loop
+loop:      if (element == 0) goto end, else goto write
+write0:    element = element + 13; goto read1
+read1:     if (element > 122) goto wrapper, else goto write1
+wrap:      element = element - 26; goto write1
+increment: i = i + 1; goto address
+write1:    mem[MAR] = element; goto increment
+end:       goto end

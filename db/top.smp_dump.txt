@@ -1,0 +1,13 @@
+
+State Machine - |top|control:u21|state
+Name state.state_end state.state_write1 state.state_increment state.state_wrap state.state_read1 state.state_write0 state.state_loop state.state_read0 state.state_address state.state_reset 
+state.state_reset 0 0 0 0 0 0 0 0 0 0 
+state.state_address 0 0 0 0 0 0 0 0 1 1 
+state.state_read0 0 0 0 0 0 0 0 1 0 1 
+state.state_loop 0 0 0 0 0 0 1 0 0 1 
+state.state_write0 0 0 0 0 0 1 0 0 0 1 
+state.state_read1 0 0 0 0 1 0 0 0 0 1 
+state.state_wrap 0 0 0 1 0 0 0 0 0 1 
+state.state_increment 0 0 1 0 0 0 0 0 0 1 
+state.state_write1 0 1 0 0 0 0 0 0 0 1 
+state.state_end 1 0 0 0 0 0 0 0 0 1 

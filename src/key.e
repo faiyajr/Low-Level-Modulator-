@@ -1,0 +1,16 @@
+key_enter		10
+key_backspace	8
+key_1			49
+key_2			50
+key_3			51
+key_Q			113
+key_A			97
+key_W			119
+key_S 			115
+key_E			101
+key_D			100
+key_T			116
+key_G			103
+key_Y			121
+key_H			104
+key_R			114
