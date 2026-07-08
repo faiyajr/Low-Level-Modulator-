@@ -1,4 +1,4 @@
-# Low Level Synthesizer
+# Low Level Modulator
 
 A microprocessor-based modulator built on an **Altera DE2-115 FPGA**, running a custom **processor** written in Verilog with software authored in assembly. Synth Synthesis is an interactive toy that teaches modulator modulation to beginners (ages 8+) by pairing a live, animated waveform with synchronized audio — letting users *see* and *hear* how amplitude, frequency, and phase changes reshape a sound in real time.
 
